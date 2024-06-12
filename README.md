@@ -25,7 +25,7 @@ Connectors for encoder wiring are JST 2.5mm connectors but standard 2.54mm pin h
 It can be also used  with MIDI and AUDIO panel connectors. Here is how would you wire external panel connectors.
 ![external wirring](https://github.com/sstojos/zynthian-miniature/blob/main/other-info/PCB-main-wiring.png)
 
-NOTE: Due to limites size of this raspberry pi HUT, JST connectors for MIDI panel connectors are in the same place on PCB where MIDI PCB mountable connectors. Therefore you can only install one or another. MIDI through connector is only available through JST connector.
+NOTE: Due to limited size of raspberry pi HUT, JST connectors for MIDI panel connectors are in the same place on PCB where two (IN and OUT) MIDI PCB mountable connectors are. Therefore you can only install JST connectors or MIDI PCB connectors but not both on the same PCB. MIDI through connector is only available through JST connector.
 
 ## It can be used with another sound card 
 Sound card must not be installed if another sound card is connected to raspberry pi. I2S sound cards can not share the same rpi pins.
