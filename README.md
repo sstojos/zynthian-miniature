@@ -29,12 +29,12 @@ It can be also used  with MIDI and AUDIO panel connectors. Here is how would you
 Sound card must not be installed if another sound card is connected to raspberry pi. I2S sound cards can not share the same rpi pins.
 ![without sound card](https://github.com/sstojos/zynthian-miniature/blob/main/other-info/PCB-main-without-MIDI-PCB-connectors-and-sound-card.png)
 
+NOTE: can not be used with another audio card that have AUDIO IN (ADC) such as Hifyberry DAC+ ADC or DAC2 PRO ADC because encoder 3 B pin is wired to RPI pin 38 which is often  used by audio cards with ADC for audio in data. In this case there is a need to brake line from encoder 3 B connector to rpi 38 pin on PCB and  patch (solder wire) from encoder 3 b pin to another available rpi pin. Finnaly, wiring configuration in zynthian webconfig need to be changed accordingly. It is an easy patch. 
+
 # Zynthian Webconfig
 
 ## Sound Card
 Audio: HifiBerry DAC+ light
-
-NOTE: can not be used with another audio card that have AUDIO IN (ADC) such as Hifyberry DAC+ ADC or DAC2 PRO ADC because encoder 3 B pin is wired to RPI pin 38 which is often  used by audio cards with ADC for audio in data. In this case there is a need to brake line from encoder 3 B connector to rpi 38 pin on PCB and  patch (solder wire) from encoder 3 b pin to another available rpi pin. Finnaly, wiring configuration in zynthian webconfig need to be changed accordingly. It is an easy patch. 
 
 ## Wiring
 * Wiring Layout: Dummies
