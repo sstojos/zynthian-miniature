@@ -7,7 +7,7 @@ This is repository that store schematics and PCB design for basic PCB with MIDIs
 
 This is designed in KiCad 6.0. It is inspired by clumsy MIDI project.
 
-It comes as a single PCB that need to be split into 5: one main PCB and 4 encoder OPCBs.
+It comes as a single PCB that need to be split into 5: one main PCB and 4 encoder PCBs.
 ![5 PCBs](https://github.com/sstojos/zynthian-miniature/blob/main/other-info/pcb.png)
 
 Here is the KiCad schematics screenshot:
